@@ -4,6 +4,11 @@ body{
     background-color: #afe3ff;
 }
 
+#foto-profil{
+    width: 250px;
+    height: 180px;
+}
+
 .FullWeb{
     margin-top: 1rem;
     display: flex;
@@ -21,10 +26,6 @@ body{
     height: 160px;
 }
 
-#foto-profil{
-    border-radius: 50%;
-}
-
 .head{
     margin-left: auto;
     margin-right: auto;
@@ -32,6 +33,11 @@ body{
     flex-direction: column;
     min-width: 800px;
     min-height: 64rem;
+}
+
+
+#foto-profil{
+    border-radius: 50%;
 }
 
 .batas{
@@ -75,12 +81,13 @@ body{
     width: 145vh;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 10vw;
+    box-shadow: 0 4px 6px -1px #d36073;
 }
 
 .bar{
     display: flex;
     align-items: center;
-    flex-basis: 30%;
+    flex-basis: 20%;
     margin-top: 15px;
     font-size: 20px;
     border: 1px;
@@ -101,6 +108,23 @@ body{
     color: #6e4970;
 }
 
+.subSection .headerContent{
+    font-size: 25px;
+}
+
+.subPortofolio{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.subPortofolio img{
+    width: 120px;
+    height: 120px;
+    border-radius: 20%;
+}
+
 
 .form1{
     flex-basis: 50%;
@@ -112,7 +136,13 @@ body{
     display: flex;
     flex-direction: column;
     gap: 0.5em;
-    /* height: 30px; */
+    resize: none;
+}
+
+.form1 .form-control textarea{
+    resize: none;
+    width: 100%;
+    height: 100%;
 }
 
 .submit{
@@ -149,5 +179,14 @@ body{
 
 svg path{
     fill: #d36073;
+}
+
+.bawah{
+    align-items: justify;
+    text-align: center;
+    padding: 2%;
+    margin-top: 3%;
+    background-color: #809fff;  
+    width: 100%;
 }
 
